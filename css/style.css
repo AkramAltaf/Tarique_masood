@@ -1,0 +1,382 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+html {
+    font-size: 100%;
+}
+
+body {
+    background: #f5f4f0;
+}
+
+.carousel-inner img {
+    width: 100%;
+    height: 100%;
+}
+
+.form-control:focus {
+    box-shadow: none;
+}
+
+
+.hero,
+.service,
+.process,
+.my__card,
+.product,
+.ads {
+    padding-bottom: 3rem;
+    padding-top: 3rem;
+}
+
+/* -----Header------- */
+
+
+.navbar {
+    background: #f5f4f0 !important;
+}
+
+.navbar-collapse {
+    justify-content: space-between;
+}
+
+.navbar-light .navbar-nav .nav-link {
+    color: #000;
+}
+
+.navbar-expand-lg .navbar-nav .nav-link {
+    padding-right: 1.7rem;
+    padding-left: 1.7rem;
+}
+
+.nav-link {
+    padding: 1.5rem 1rem;
+}
+
+.nav-item {
+    font-weight: 500;
+}
+
+.btn__login {
+    font-weight: 500;
+    border: none;
+    padding: 0.375rem 1.2rem;
+    border: 1px solid gray;
+    margin: 0 0.5rem;
+    width: 100px;
+}
+
+.btn:focus {
+    outline: none;
+    box-shadow: none;
+}
+
+.logo__img {
+    width: 120px;
+}
+
+
+/*-------Hero------ */
+
+.hero__wrapper {
+    display: flex;
+    justify-content: space-between;
+    background-color: #3f6745;
+    padding: 6rem 5.2rem;
+    margin-bottom: 4rem;
+}
+
+.left__content img {
+    width: 290px;
+}
+
+.right__content img {
+    width: 540px;
+    min-width: 200px;
+}
+
+.hero__left-title {
+    font-size: 5.5rem;
+    color: #fff;
+    font-weight: 700;
+    margin-bottom: 2rem;
+}
+
+.hero__left-content {
+    color: #fff;
+    display: inline-block;
+    margin-bottom: 3rem;
+}
+
+/* -----Service------- */
+
+
+.service__wrapper {
+    display: flex;
+    justify-content: space-between;
+}
+
+.service__title {
+    color: #cdcec9;
+}
+
+.service__title {
+    padding-left: 2rem;
+}
+
+.service__build {
+    padding-left: 2rem;
+}
+
+.service__build h3 {
+    font-size: 2rem;
+    font-weight: 700;
+}
+
+.service__thumb img {
+    width: 220px;
+    padding: 0 2rem;
+}
+
+.service__sale {
+    padding: 0 2rem;
+}
+
+.service__sale h3 {
+    font-size: 2.3rem;
+    font-weight: 700;
+}
+
+.service__sale p {
+    color: #cdcec9;
+}
+
+.service__download {
+    padding: 0 2rem;
+}
+
+.service__download h3 {
+    font-size: 2.3rem;
+    font-weight: 700;
+}
+
+.service__download p {
+    color: #cdcec9;
+}
+
+/*-------Process------ */
+
+.process__title {
+    margin: auto;
+    text-align: center;
+    max-width: 700px;
+}
+
+.process__title h1 {
+    font-size: 3rem;
+    font-weight: 700;
+    margin-bottom: 2rem;
+}
+
+.process__title p {
+    font-size: 1.2rem;
+    color: #cdcec9;
+}
+
+/* ------ My__card----- */
+
+.my__card-style {
+    background-color: #fff;
+    padding: 3rem;
+}
+
+.my__card-style span {
+    display: flex !important;
+    justify-content: center;
+    align-items: center;
+    display: block;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    margin-bottom: 3rem;
+    background-color: rgb(240, 91, 53);
+}
+
+.my__card-style i {
+    font-size: 2rem;
+    color: #fff;
+}
+
+.my__card-style h6 {
+    font-size: 1.2rem;
+    font-weight: 700;
+}
+
+.my__card-style p {
+    color: #cdcec9;
+}
+
+/* ------Product------ */
+
+.product__left {
+    padding-right: 4rem;
+}
+
+.product__right {
+    padding-left: 4rem;
+}
+
+.product__title {
+    font-size: 2.5rem;
+    font-weight: 700;
+    margin-bottom: 3rem;
+}
+
+.product__sub-title {
+    display: flex;
+}
+
+.product__sub-content {
+    margin-left: 2rem;
+    margin-bottom: 2.5rem;
+}
+
+.product__sub-content h6 {
+    font-size: 1.3rem;
+    font-weight: 600;
+}
+
+.product__sub-content p {
+    color: #cdcec9;
+}
+
+.product__sub-title i {
+    color: #3f6745;
+    font-size: 1.7rem;
+}
+
+/* -----ads----- */
+
+.ads__right {
+    padding-left: 4rem;
+}
+
+.ads__left {
+    padding-right: 4rem;
+}
+
+.ads__sub-title {
+    font-size: 1.1rem;
+    color: #cdcec9;
+    margin-bottom: 1.5rem;
+}
+
+.ads__title {
+    font-size: 2.7rem;
+    font-weight: 700;
+    margin-bottom: 2rem;
+}
+
+.ads__right p {
+    line-height: 1.9;
+    color: #cdcec9;
+}
+
+/* -------Footer----- */
+
+.footer__wrap {
+    padding: 3rem 3rem 2rem;
+    background: #000;
+}
+
+.footer__heading {
+    font-size: 5rem;
+    font-weight: 900;
+    color: #fff;
+}
+
+.footer__email {
+    margin-bottom: 4rem;
+}
+
+.footer__mail-content {
+    font-size: 1.2rem;
+    font-weight: 700;
+    color: #fff;
+}
+
+.footer__logo img {
+    width: 100px;
+}
+
+.footer_navbar {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.footer__social i {
+    margin-left: 1.6rem;
+    color: #fff;
+    cursor: pointer;
+}
+
+.footer__social {
+    margin-top: 1.7rem;
+    text-align: center;
+}
+
+.footer_navbar .nav-link {
+    color: #fff;
+}
+
+.footer__btn {
+    background: red;
+}
+
+
+.form-inline {
+    outline: none !important;
+    box-shadow: none;
+}
+
+
+.footer__line {
+    background-color: rgb(44, 43, 43);
+}
+
+.copyright {
+    text-align: center;
+}
+
+.copyright a {
+    font-size: 11px;
+    color: #263129;
+    font-weight: bold;
+}
+
+.footer__input-group-text {
+    background-color: rgb(240, 102, 22);
+    color: #fff;
+    border: none;
+    padding: 10px;
+    border: 2px solid #fff;
+}
+
+.footer__input-group-text i {
+    background-color: rgb(248, 126, 78);
+    padding: 7px 12px;
+    margin-left: 7px;
+}
+
+.footer__input-group-form {
+    height: calc(1.5em + 1.75rem + 2px) !important;
+    outline: none;
+    border: none;
+    border-radius: 0px;
+    border-style: none;
+}

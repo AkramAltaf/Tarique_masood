@@ -1,0 +1,105 @@
+@media(max-width: 768px) {
+
+    html {
+        font-size: 70% !important;
+    }
+
+    .hero__left-title,
+    .footer__heading {
+        font-size: 3.9rem !important;
+    }
+
+    .service__build h3 {
+        margin-bottom: 2rem;
+    }
+
+    .service__title {
+        text-align: center;
+        margin-bottom: 1rem;
+    }
+
+    .service__thumb img {
+        padding: 0px;
+        margin-bottom: 1rem;
+    }
+
+    .service__sale {
+        padding: 0px;
+        margin-bottom: 1rem;
+    }
+
+    .service__wrapper {
+        text-align: center;
+    }
+
+    .service__wrapper {
+        display: flex !important;
+        flex-direction: column !important;
+    }
+
+    .hero__wrapper {
+        flex-direction: column;
+    }
+
+    .my__card-style {
+        margin-bottom: 1rem;
+        text-align: center;
+    }
+
+    .my__card-style-icon {
+        display: flex;
+        justify-content: center;
+    }
+
+    .product__title {
+        text-align: center;
+    }
+
+    .product__right,
+    .ads__left,
+    .product__left,
+    .ads__right {
+        padding: 0px !important;
+    }
+
+    .footer_navbar {
+        flex-direction: column !important;
+    }
+
+    .footer__logo,
+    .footer_navbar-1 {
+        text-align: center;
+    }
+
+    .footer__social {
+        margin: 0px !important;
+        text-align: center !important;
+    }
+
+    .footer__mail-content {
+        margin-bottom: 4rem !important;
+    }
+
+    .footer__input-group-text {
+        padding: 0px 5px !important;
+    }
+
+    .btn__login {
+        margin-bottom: 1rem !important;
+    }
+
+    .navbar-nav {
+        align-items: center;
+    }
+
+
+    .hero,
+    .service,
+    .process,
+    .my__card,
+    .product,
+    .ads {
+        padding-bottom: 1.5rem !important;
+        padding-top: 1.5rem !important;
+    }
+}
